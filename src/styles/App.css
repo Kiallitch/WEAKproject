@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  display: flex;
 }
 
 .App-logo {
@@ -21,4 +22,23 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+body {
+  background-color: #3D3D3D;
+}
+
+.card {
+  margin: 0 0 15px 0;
+}
+
+#scroll-area {
+  height: 600px;
+  overflow-y: scroll;
+  margin-top: 5px;
+}
+
+.jumbotron {
+  padding: 20px;
+  height: 120px;
 }
